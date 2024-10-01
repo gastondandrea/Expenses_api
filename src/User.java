@@ -1,9 +1,10 @@
+import java.util.List;
 import java.util.ArrayList;
 
 public class User {
     private String name;
     private String email;
-    private ArrayList<Expense> expenses;
+    private List<Expense> expenses;
 
     // Constructor
     public User(String name, String email) {
@@ -27,7 +28,7 @@ public class User {
         this.email = email;
     }
 
-    public ArrayList<Expense> getExpenses() {
+    public List<Expense> getExpenses() {
         return expenses;
     }
 
